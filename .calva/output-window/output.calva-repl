@@ -1,0 +1,157 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: npx nbb nrepl-server :port 44543
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+2
+cljs꞉user꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#object[hooks]
+cljs꞉app꞉> 
+2022
+cljs꞉app꞉> 
+; Could not resolve symbol: inquirer/prompt
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#'app/questions
+cljs꞉app꞉> 
+#object[Promise [object Promise]]
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#<Promise[~]>
+cljs꞉app꞉> 
+#<Promise[~]>
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#object[listMonths]
+cljs꞉app꞉> 
+#js ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"]
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+#js {:Binary #object[Binary], :BSONRegExp #object[BSONRegExp], :BSONSymbol #object[BSONSymbol], :Code #object[Code], :DBRef #object[DBRef], :Decimal128 #object[Decimal128], :Double #object[Double], :Int32 #object[Int32], :Long #object[Long], :Map #object[Map], :MaxKey #object[MaxKey], :MinKey #object[MinKey], :ObjectId #object[ObjectId], :Timestamp #object[Timestamp], :ObjectID #object[ObjectId], :MongoBulkWriteError #object[MongoBulkWriteError], :MongoAPIError #object[MongoAPIError], :MongoBatchReExecutionError #object[MongoBatchReExecutionError], :MongoChangeStreamError #object[MongoChangeStreamError], :MongoCompatibilityError #object[MongoCompatibilityError], :MongoCursorExhaustedError #object[MongoCursorExhaustedError], :MongoCursorInUseError #object[MongoCursorInUseError], :MongoDecompressionError #object[MongoDecompressionError], :MongoDriverError #object[MongoDriverError], :MongoError #object[MongoError], :MongoExpiredSessionError #object[MongoExpiredSessionError], :MongoGridFSChunkError #object[MongoGridFSChunkError], :MongoGridFSStreamError #object[MongoGridFSStreamError], :MongoInvalidArgumentError #object[MongoInvalidArgumentError], :MongoKerberosError #object[MongoKerberosError], :MongoMissingCredentialsError #object[MongoMissingCredentialsError], :MongoMissingDependencyError #object[MongoMissingDependencyError], :MongoNetworkError #object[MongoNetworkError], :MongoNetworkTimeoutError #object[MongoNetworkTimeoutError], :MongoNotConnectedError #object[MongoNotConnectedError], :MongoParseError #object[MongoParseError], :MongoRuntimeError #object[MongoRuntimeError], :MongoServerClosedError #object[MongoServerClosedError], :MongoServerError #object[MongoServerError], :MongoServerSelectionError #object[MongoServerSelectionError], :MongoSystemError #object[MongoSystemError], :MongoTailableCursorError #object[MongoTailableCursorError], :MongoTopologyClosedError #object[MongoTopologyClosedError], :MongoTransactionError #object[MongoTransactionError], :MongoUnexpectedServerResponseError #object[MongoUnexpectedServerResponseError], :MongoWriteConcernError #object[MongoWriteConcernError], :AbstractCursor #object[AbstractCursor], :Admin #object[Admin], :AggregationCursor #object[AggregationCursor], :CancellationToken #object[CancellationToken], :Collection #object[Collection], :Db #object[Db], :FindCursor #object[FindCursor], :GridFSBucket #object[GridFSBucket], :ListCollectionsCursor #object[ListCollectionsCursor], :ListIndexesCursor #object[ListIndexesCursor], :Logger #object[Logger], :MongoClient #object[MongoClient], :Promise #object[PromiseProvider], :BatchType #js {:INSERT 1, :UPDATE 2, :DELETE 3}, :GSSAPICanonicalizationValue #js {:on true, :off false, :none "none", :forward "forward", :forwardAndReverse "forwardAndReverse"}, :AuthMechanism #js {:MONGODB_AWS "MONGODB-AWS", :MONGODB_CR "MONGODB-CR", :MONGODB_DEFAULT "DEFAULT", :MONGODB_GSSAPI "GSSAPI", :MONGODB_PLAIN "PLAIN", :MONGODB_SCRAM_SHA1 "SCRAM-SHA-1", :MONGODB_SCRAM_SHA256 "SCRAM-SHA-256", :MONGODB_X509 "MONGODB-X509"}, :Compressor #js {:none 0, :snappy 1, :zlib 2}, :CURSOR_FLAGS #js ["tailable" "oplogReplay" "noCursorTimeout" "awaitData" "exhaust" "partial"], :AutoEncryptionLoggerLevel #js {:FatalError 0, :Error 1, :Warning 2, :Info 3, :Trace 4}, :MongoErrorLabel #js {:RetryableWriteError "RetryableWriteError", :TransientTransactionError "TransientTransactionError", :UnknownTransactionCommitResult "UnknownTransactionCommitResult", :ResumableChangeStreamError "ResumableChangeStreamError"}, :ExplainVerbosity #js {:queryPlanner "queryPlanner", :queryPlannerExtended "queryPlannerExtended", :executionStats "executionStats", :allPlansExecution "allPlansExecution"}, :LoggerLevel #js {:ERROR "error", :WARN "warn", :INFO "info", :DEBUG "debug", :error "error", :warn "warn", :info "info", :debug "debug"}, :ServerApiVersion #js {:v1 "1"}, :BSONType #js {:double 1, :string 2, :object 3, :array 4, :binData 5, :undefined 6, :objectId 7, :bool 8, :date 9, :null 10, :regex 11, :dbPointer 12, :javascript 13, :symbol 14, :javascriptWithScope 15, :int 16, :timestamp 17, :long 18, :decimal 19, :minKey -1, :maxKey 127}, :ReturnDocument #js {:BEFORE "before", :AFTER "after"}, :ProfilingLevel #js {:off "off", :slowOnly "slow_only", :all "all"}, :ReadConcernLevel #js {:local "local", :majority "majority", :linearizable "linearizable", :available "available", :snapshot "snapshot"}, :ReadPreferenceMode #js {:primary "primary", :primaryPreferred "primaryPreferred", :secondary "secondary", :secondaryPreferred "secondaryPreferred", :nearest "nearest"}, :ServerType #js {:Standalone "Standalone", :Mongos "Mongos", :PossiblePrimary "PossiblePrimary", :RSPrimary "RSPrimary", :RSSecondary "RSSecondary", :RSArbiter "RSArbiter", :RSOther "RSOther", :RSGhost "RSGhost", :Unknown "Unknown", :LoadBalancer "LoadBalancer"}, :TopologyType #js {:Single "Single", :ReplicaSetNoPrimary "ReplicaSetNoPrimary", :ReplicaSetWithPrimary "ReplicaSetWithPrimary", :Sharded "Sharded", :Unknown "Unknown", :LoadBalanced "LoadBalanced"}, :ReadConcern #object[ReadConcern], :ReadPreference #object[ReadPreference], :WriteConcern #object[WriteConcern], :CommandFailedEvent #object[CommandFailedEvent], :CommandStartedEvent #object[CommandStartedEvent], :CommandSucceededEvent #object[CommandSucceededEvent], :ConnectionCheckedInEvent #object[ConnectionCheckedInEvent], :ConnectionCheckedOutEvent #object[ConnectionCheckedOutEvent], :ConnectionCheckOutFailedEvent #object[ConnectionCheckOutFailedEvent], :ConnectionCheckOutStartedEvent #object[ConnectionCheckOutStartedEvent], :ConnectionClosedEvent #object[ConnectionClosedEvent], :ConnectionCreatedEvent #object[ConnectionCreatedEvent], :ConnectionPoolClearedEvent #object[ConnectionPoolClearedEvent], :ConnectionPoolClosedEvent #object[ConnectionPoolClosedEvent], :ConnectionPoolCreatedEvent #object[ConnectionPoolCreatedEvent], :ConnectionPoolMonitoringEvent #object[ConnectionPoolMonitoringEvent], :ConnectionReadyEvent #object[ConnectionReadyEvent], :ServerClosedEvent #object[ServerClosedEvent], :ServerDescriptionChangedEvent #object[ServerDescriptionChangedEvent], :ServerHeartbeatFailedEvent #object[ServerHeartbeatFailedEvent], :ServerHeartbeatStartedEvent #object[ServerHeartbeatStartedEvent], :ServerHeartbeatSucceededEvent #object[ServerHeartbeatSucceededEvent], :ServerOpeningEvent #object[ServerOpeningEvent], :TopologyClosedEvent #object[TopologyClosedEvent], :TopologyDescriptionChangedEvent #object[TopologyDescriptionChangedEvent], :TopologyOpeningEvent #object[TopologyOpeningEvent], :SrvPollingEvent #object[SrvPollingEvent]}
+cljs꞉app꞉> 
+#'app/password
+cljs꞉app꞉> 
+#'app/user
+cljs꞉app꞉> 
+#'app/uri
+cljs꞉app꞉> 
+"mongodb+srv://nbb:secret!123@cluster0.2pbdq.mongodb.net/birthdaydb?retryWrites=true&w=majority"
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+#object[MongoClient]
+cljs꞉app꞉> 
+; Class constructor MongoClient cannot be invoked without 'new'
+cljs꞉app꞉> 
+#object[MongoClient [object Object]]
+cljs꞉app꞉> 
+#object[MongoClient [object Object]]
+cljs꞉app꞉> 
+#object[on app]
+cljs꞉app꞉> 
+; Could not resolve symbol: client
+cljs꞉app꞉> 
+#'app/client
+cljs꞉app꞉> 
+#'app/write-data
+cljs꞉app꞉> 
+#object[MongoClient [object Object]]
+cljs꞉app꞉> 
+#'app/write-data
+cljs꞉app꞉> 
+#object[Collection [object Object]]
+cljs꞉app꞉> 
+#'app/write-data
+cljs꞉app꞉> 
+#js {:acknowledged true, :insertedId #object[ObjectId 624ef49725575a7b81d4aa5a]}
+cljs꞉app꞉> 
+#'app/write-birthday
+cljs꞉app꞉> 
+#js {:acknowledged true, :insertedId #object[ObjectId 624ef4f625575a7b81d4aa5b]}
+cljs꞉app꞉> 
+4
+cljs꞉app꞉> 
+3
+cljs꞉app꞉> 
+"April"
+cljs꞉app꞉> 
+#'app/find-birthday-entries
+cljs꞉app꞉> 
+#<Promise[~]>
+cljs꞉app꞉> 
+#object[FindCursor [object Object]]
+cljs꞉app꞉> 
+#'app/find-birthday-entries
+cljs꞉app꞉> 
+#js [#js {:_id #object[ObjectId 624ef59edcdcd0e28a04c086], :name "mark", :day "1", :month "January"}]
+cljs꞉app꞉> 
+#js [#js {:_id #object[ObjectId 624ef59edcdcd0e28a04c086], :name "mark", :day "1", :month "January"}]
+cljs꞉app꞉> 
+#'app/list-birthdays
+cljs꞉app꞉> 
+#<Promise[~]>
+cljs꞉app꞉> 
+#'app/list-birthdays
+cljs꞉app꞉> 
+[]
+cljs꞉app꞉> 
+[]
+cljs꞉app꞉> 
+[]
+cljs꞉app꞉> 
+#js [#js {:_id #object[ObjectId 624ef8ebe4a473dddd7c59c0], :name "Gerard Dou", :day "7", :month "April"}]
+cljs꞉app꞉> 
+#'app/find-birthday-entries
+cljs꞉app꞉> 
+"finding" 4 "April"
+
+[]
+cljs꞉app꞉> 
+4
+cljs꞉app꞉> 
+"finding" 4 "April"
+
+[]
+cljs꞉app꞉> 
+#'app/list-birthdays
+cljs꞉app꞉> 
+"finding" 7 "April"
+
+[{:_id #object[ObjectId 624ef8ebe4a473dddd7c59c0], :name "Gerard Dou", :day "7", :month "April"}]
+cljs꞉app꞉> 
+nil
+cljs꞉app꞉> 
+#object[Object [object Object]]
+cljs꞉app꞉> 
