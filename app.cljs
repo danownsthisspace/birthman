@@ -1,9 +1,9 @@
 (ns app
-  (:require ["moment$default" :as moment]
-            ["inquirer$default" :as inquirer]
-            [promesa.core :as p]
+  (:require ["inquirer$default" :as inquirer]
+            ["moment$default" :as moment]
             ["mongodb$default" :as mongodb]
-            [nbb.core :refer [await]]))
+            [nbb.core :refer [await]]
+            [promesa.core :as p]))
 
 
 (def password js/process.env.BMAN_DB_PASS)
